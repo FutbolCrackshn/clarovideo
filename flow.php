@@ -1,0 +1,98 @@
+
+<html lang="es">
+<head>
+    <meta name=robots content=noindex />
+</head>    
+<style>body{margin:0;padding:0}</style>
+<script>
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+  var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+  results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var getURL = getParameterByName('url');
+var getLang = getParameterByName('lang');
+var getIMG = getParameterByName('img');
+var getKEY  = getParameterByName('k1');
+var getKEY2  = getParameterByName('k2');
+</script>
+<script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+<div id="player"></div>
+<script>
+var mt = ["//edge-live02-mun", "//edge-live01-bel", "//edge-live02-bel", "//edge-live11-hr", "//edge-live12-hr", "//edge-live13-hr", "//edge-live14-hr", "//edge-live15-hr", "//edge-live16-hr", "//edge-live17-hr", "//edge-live31-hr", "//edge-live32-hr", "//edge-live12-sl", "//edge-live13-sl", "//edge-live15-sl", "//edge-live16-sl", "//edge-live17-sl", "//edge-live31-sl", "//edge-live32-sl", "//edge-vod02-sl", "//edge-vod04-sl", "//edge9-sl", "//edge10-sl"];
+var random = Math.floor(Math.random() * mt.length);
+        var playerInstance = jwplayer("player");
+
+        function tryMPD(mts, index, onValid, onInvalid) {
+            if (index >= mts.length) {
+                onInvalid();
+                return;
+            }
+
+            var mpdURL = mts[index] + atob(getURL);
+            checkMPD(mpdURL, function(isValid) {
+                if (isValid) {
+                    onValid(mpdURL);
+                } else {
+                    tryMPD(mts, index + 1, onValid, onInvalid);
+                }
+            });
+        }
+
+        function checkMPD(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    callback(xhr.status === 200);
+                }
+            };
+            xhr.send();
+        }
+
+        tryMPD(mt, 0, function(validMPD) {
+            playerInstance.setup({
+                playlist: [{
+                    title: "",
+                    description: "",
+                    sources: [{
+                        default: false,
+                        type: "dash",
+                        file: validMPD,
+                        drm: {
+                            clearkey: {
+                                keyId: atob(getKEY),
+                                key: atob(getKEY2)
+                            }
+                        },
+                        label: "0"
+                    }]
+                }],
+                width: "100%",
+                height: "100%",
+                stretching : "exactfit",
+                aspectratio: "16:9",
+                autostart: true,
+                cast: {},
+                sharing: {}
+            });
+
+            if (getLang == "") {
+                var lang = 1;
+            } else {
+                var lang = parseInt(getLang); 
+            }
+
+            jwplayer().on('play', function(e) {
+                jwplayer().setCurrentAudioTrack(lang);
+            });
+
+        }, function() {
+            console.error("404");
+        });
+    </script>
+</body>
+</html>
