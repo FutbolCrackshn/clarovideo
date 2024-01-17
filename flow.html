@@ -44,7 +44,7 @@ var random = Math.floor(Math.random() * mt.length);
 
         function checkMPD(url, callback) {
             var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, false);
+            xhr.open('GET', url, true);
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === 4) {
                     callback(xhr.status === 200);
@@ -76,6 +76,7 @@ var random = Math.floor(Math.random() * mt.length);
                 stretching : "exactfit",
                 aspectratio: "16:9",
                 autostart: false,
+                mute: false,
                 cast: {},
                 sharing: {}
             });
