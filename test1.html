@@ -1,0 +1,40 @@
+<style>
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+
+.player-container {
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  object-fit: contain;
+}
+</style>
+<head>
+  
+   <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/clappr@0.3.13/dist/clappr.min.js">
+      
+  </script>
+</head>
+<body>
+ 
+      <div id="player" class="player-container"></div>
+  
+      <script>
+   var player = new Clappr.Player
+   ({source: "http://livex.pop-app.live/s4n/poplive/ch329/playlist.m3u8",maxBufferLength: 15,autoPlay:false,parentId: "#player",mute: true, hideVolumeBar: true,
+  autoPlayVisible: "partial",watermark: "#",position: "bottom-right",watermarkLink: "#"});
+  </script>
+</body>
