@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+     id = getParameterByName('p');
+    if(getParameterByName('embed')){
+       embed = getParameterByName('embed');
+    }else{
+       if(getParameterByName('r')){
+           embed = getParameterByName('r');
+        }else{
+           embed = false;
+    }  
+    }
+
+ </script> 
