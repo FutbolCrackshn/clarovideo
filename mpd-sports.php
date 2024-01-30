@@ -1,0 +1,329 @@
+<style>body {margin:0;padding:0;}</style>
+<meta content="noindex, nofollow, noarchive" name="robots"/>
+<meta content="noindex, nofollow, noarchive" name="googlebot"/>
+<meta name="referrer" content="no-referrer" />
+<script data-cfasync="false" type="text/javascript" src="//dexpredict.com/a/display.php?r=6944394"></script>
+<script language="javascript" type="text/javascript"> if(self==top) { top.location.href=""; } </script>
+
+ConsoleBan.init({
+  redirect: "/TV-en-VIVO"
+})
+</script>
+<script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
+<script type="text/javascript">document.oncontextmenu = function(){return false};</script>
+    <script>
+        // default options
+        ConsoleBan.init()
+        // custom options
+        ConsoleBan.init({
+            redirect: ''
+        })
+    </script>
+<script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+<script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+
+<script type="text/javascript">
+function getData(e){e=e.replace(/[\[]/,"[").replace(/[\]]/,"]");var a=new RegExp("[?&]"+e+"=([^&#]*)").exec(location.search);return null===a?"":decodeURIComponent(a[1].replace(/\+/g," "))} 
+var id = getData("id"); if (id == "#") {alert("Vuelve a la página anterior");}
+var aut = getData("aut"); if (aut == "false") {auto = false;} else {auto = true;} 
+</script>
+
+<script>
+//DEPORTES
+if (id == "directv") {
+url = "//1059-vos.dtvott.com/DASH/manifest.mpd"; k1 = "3e1c0dd8d951335d9d8c534d29277c91"; k2 = "978f073eee32606a3f2544306fb1a7b3";}
+
+else if (id == "directv2") {
+url = "//1063-vos.dtvott.com/DASH/manifest.mpd"; k1 = "c44d52b11dce3875ad2765c9d469075b"; k2 = "af4ba31c1324eb92ac88463f7bd941d5";}
+
+else if (id == "directvplus") {
+url = "//1071-abc-da-bpk.dtvott.com/dash_live_1071/dash/1071_DIRECTV_SPORTS_PLUS/manifest.mpd"; k1 = "f19c3a8c638d52c2ab77b9566bcb2996"; k2 = "7400a9f905f172d5d74d7dc440724c8e";}
+
+else if (id == "espn") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd"; k1 = "e884b711ab111beb8a7ba1e7bcbdc9bf"; k2 = "cb89ee3961599e3e648a5aad60895f34";}
+
+else if (id == "espn2") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd"; k1 = "65a5bfa3c7a72dde60be9b0c7406c8fc"; k2 = "0b40ae9f78a7bac3b57ecbf72d3c081e";}
+
+else if (id == "espn2-op2") {
+url = "//arlocallivechannelsdash.lcdn.clarotv.com.ar/Content/DASH_DASH_FK/Live/channel(ESPN2)/master.mpd"; k1 = "579fc0cd11842bce9c045a0d55aa4872"; k2 = "bf54d928e27061a13fafdde934146472";}
+
+else if (id == "espn3") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd"; k1 = "f4c9f97e2a36feab0e5077f2b44cbc4e"; k2 = "1743cd03dfe3736b2c95da91a783af38";}
+
+else if (id == "espnextra") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd"; k1 = "cc8d44406ed6bf1898ad9f7a2d64f29e"; k2 = "fb85d059687ab0fc67805806204edbdf";}
+
+else if (id == "espnpremium") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc/Fox_Sports_Premiun_HD.mpd"; k1 = "4c230dbc7f6a4bfa6ad0aa73ff792374"; k2 = "4186a7c2a15f590a9399886feaec4257";}
+
+else if (id == "tntsports") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc/TNT_Sports_HD.mpd"; k1 = "bc80fa3da696e503f940fde5f681a1c5"; k2 = "ea46e4e9f1132e8dd71fb77f7d55058a";}
+
+else if (id == "foxsports") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd"; k1 = "cbc2a0c7a38df0aa3333cd71841d3b0d"; k2 = "aac61b730e2ac1df23f1e872e7541c1b";}
+
+else if (id == "foxsports2") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd"; k1 = "c98ddffc470fe449ae1a8d6492116976"; k2 = "5086d370e840010232cf4532b16e197f";}
+
+else if (id == "foxsports3") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd"; k1 = "55b47390cf9e4997dae6dac85e057875"; k2 = "fa39e855543c5d70f30600d59e5e4c1b";}
+
+else if (id == "tyc") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c7eds/TyCSport/SA_Live_dash_enc/TyCSport.mpd"; k1 = "2b21c8fa9a329cce311a4c4a4aa996a1"; k2 = "cc23ea1fb32629f9e1f48c8deeae3e5b";}
+
+else if (id == "tyc-op2") {
+url = "//arlocallivechannelsdash.lcdn.clarotv.com.ar/Content/DASH_DASH_FK/Live/channel(TYC_SPORTS)/master.mpd"; k1 = "f7dcab829caeffb612740a1c51f0478d"; k2 = "b2466bb519b759ae3de1818988532453";}
+
+else if (id == "tycinternacional") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/TyC_Internacional/SA_Live_dash_enc/TyC_Internacional.mpd"; k1 = "58e1ebe75d944f6a98ea67b1c7c0a572"; k2 = "1c311b069dbce31ce8e62a6e7e2433eb";}
+
+else if (id == "deportv") {
+url = "//edge-mix02-mun.cvattv.com.ar/live/c3eds/DeporTVHD/SA_Live_dash_enc/DeporTVHD.mpd"; k1 = "f362097815892a4b83950f1d106ff0b2"; k2 = "4349e42e81c31a8389f4a42fcd298928";}
+
+else if (id == "foxdeportes") {
+url = atob("aHR0cHM6Ly9saW5lYXIuc3R2YWNkbi5zcGVjdHJ1bS5jb20vTElWRS8xMTA2L2Rhc2gvY2VuYy9GWERFUEhEL21hbmlmZXN0Lm1wZA=="); k1 = atob("YzkyMzFkNWU3YTk5NDI5MzgyZTZhNWMyZTU4OGUxNDE="); k2 = atob("Y2EwOGFiNDA3YWI5MzkzYTgxNGQ3MjBmMWY0MWM2Y2Y=");}
+
+else if (id == "espndeportes") {
+url = atob("Ly9saW5lYXIuc3R2YWNkbi5zcGVjdHJ1bS5jb20vTElWRS8xMTY2L2Rhc2gvY2VuYy9FU1BOREhEXzEzNjY3L21hbmlmZXN0Lm1wZA=="); k1 = atob("YmU2NWU1OTg1ZmEwNGE0OWFmMzEwZjBhOTJhMDI2MGE="); k2 = atob("MWFjYjVmZjdiMGRiZmRmMTljNGRjYTFhYWJmYWFhMTE=");}
+
+else if (id == "daznliga") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-043/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "laliga-hypermotion") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-040/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "dazn1es") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-037/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "dazn2es") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-038/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "daznf1") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-016/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport1") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-031/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport2") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-032/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport1fr") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-027/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport2fr") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-028/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport1it") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-029/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eurosport2it") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-030/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "dazn1de") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-017/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "dazn2de") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-018/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven1pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-054/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven2pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-055/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven3pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-056/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven4pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-057/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven5pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-058/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven6pt") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-059/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "playsports1") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-051/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "playsports2") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-052/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "playsports3") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-053/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "sportdigital") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-022/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "zonadaznit") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-024/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "eleven1bel") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-048/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "nbatv") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-035/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "mlb") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-026/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "nfl") {
+url = "//dcf-ak-livewwdazn.akamaized.net/dashrdm/dazn-linear-023/stream.mpd?p=web&dazm-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJleHAiOjE3MDU4ODg1ODIsImtpZCI6IjIwMjIxMTIzIiwicGF0aF9kIjoyLCJwYXRoIjoiNzE1N2E4Yzc3M2FlZTNhMDQyNTIyZWU5NGYxZWQ5MzZhMGYxMzg3NCIsImdlbyI6InB0IiwiaWF0IjoxNzA1ODQ1MzgyfQ"; k1 = "82f8e2a17dac44c0a18f660479349c59"; k2 = "1b144f73e6fefe91cd05f850e2b589d0";}
+
+else if (id == "espn1nl") {
+url = "//wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000107_019441/manifest.mpd"; k1 = "b18766306c8b4446a7431f3664976a5e"; k2 = "064cf3223b9c2bdda24e9f89bf28a6d2";}
+
+else if (id == "espn2nl") {
+url = "//da-d436234420010b88000103020000000000000006.id.cdn.upcbroadband.com/wp/wp-obc1-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000108_019561/manifest.mpd"; k1 = "b18766306c8b4446a7431f3664976a5e"; k2 = "064cf3223b9c2bdda24e9f89bf28a6d2";}
+
+else if (id == "zdocu") {
+url = "//da-d436236720010b88000103030000000000000009.id.cdn.upcbroadband.com/wp/wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000098_019255/manifest.mpd"; k1 = "25586a5ca20847d684579cce0c2ecacc"; k2 = "9c92162b23709653688a471bec0cf19b";}
+
+else if (id == "ztennis") {
+url = "//da-d436236b20010b8800010303000000000000000d.id.cdn.upcbroadband.com/wp/wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000099_019256/manifest.mpd"; k1 = "25586a5ca20847d684579cce0c2ecacc"; k2 = "9c92162b23709653688a471bec0cf19b";}
+
+else if (id == "ziggo") {
+url = "//wp-obc4-live-nl-prod.prod.cdn.dmdsdp.com/dash/go-dash-hdready-avc/NL_000014_019661/manifest.mpd"; k1 = "90e32a4712f5480bab7abc8a4fef25da"; k2 = "2eeb49a8688f2365e1131cf4ae4d6f0a";}
+
+else if (id == "zselect") {
+url = "//wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000094_019321/manifest.mpd"; k1 = "25586a5ca20847d684579cce0c2ecacc"; k2 = "9c92162b23709653688a471bec0cf19b";}
+
+else if (id == "prueba") {
+url = "//wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000061_019331/manifest.mpd"; k1 = "b18766306c8b4446a7431f3664976a5e"; k2 = "064cf3223b9c2bdda24e9f89bf28a6d2";}
+
+else if (id == "zgolf") {
+url = "//wp-obc5-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000096_019382/manifest.mpd"; k1 = "25586a5ca20847d684579cce0c2ecacc"; k2 = "9c92162b23709653688a471bec0cf19b";}
+
+else if (id == "zvoetbal") {
+url = "//da-d436234a20010b8800010302000000000000000c.id.cdn.upcbroadband.com/wp/wp-obc1-live-nl-prod.prod.cdn.dmdsdp.com/dash/NL_000095_019371/manifest.mpd"; k1 = "25586a5ca20847d684579cce0c2ecacc"; k2 = "9c92162b23709653688a471bec0cf19b";}
+
+else if (id == "tsn1") {
+url = "//live-ctv.video.9c9media.com/f/TSN/TSN1/manifest.mpd"; k1 = "dea83ced0141424e983e1afe463b4b0d"; k2 = "c00dd5dd17b0799aa4013f365a1393ce";}
+
+else if (id == "tsn2") {
+url = "//live-ctv.video.9c9media.com/f/TSN/TSN2/manifest.mpd"; k1 = "ddc52c88e2c24d38a5bc8dda8a2acb61"; k2 = "ad5ea485464a13eec7dda3249c556446";}
+
+else if (id == "tsn3") {
+url = "//live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd"; k1 = "c0f378ad54e14a9c85a3d8c986d2a51f"; k2 = "5e1d040743ff78715e464ffb905e68a9";}
+
+else if (id == "tsn4") {
+url = "//live-ctv.video.9c9media.com/f/TSN/TSN4/manifest.mpd"; k1 = "f0a2efd11e0643c3a45d6f67d02f1a97"; k2 = "85bf4469003bd28f01ea4fefedd5a431";}
+
+else if (id == "tsn5") {
+url = "//live-ctv.video.9c9media.com/f/TSN/TSN5/manifest.mpd"; k1 = "cb57741a1cee422690c6294a06eb1320"; k2 = "7a0cfd493df6ef7cc0d0bb3ad95cec8c";}
+
+else if (id == "ssc1") {
+url = "//ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd"; k1 = "d84c325f36814f39bbe59080272b10c3"; k2 = "550727de4c96ef1ecff874905493580f";}
+
+else if (id == "ssc2") {
+url = "//ssc-2-on-prem-ak.akamaized.net/out/v1/d9a2acf5f809461ca47714440fcbc0f4/index.mpd"; k1 = "b8763ccad3d146c2b15f8a77a4d6d733"; k2 = "ab87f6ae46b2dc187bd94cbb48cfe074";}
+
+else if (id == "ssc3") {
+url = "//ssc-3-on-prem-ak.akamaized.net/out/v1/ad2b1abef05c419aa6a4e6aee6d269a2/index.mpd"; k1 = "c3af2aa1da4a41cbb37b1dbe43b46782"; k2 = "b6b74f29f6d1501b989c96aec4dae599";}
+
+else if (id == "ssc4") {
+url = "//ssc-4-on-prem-ak.akamaized.net/out/v1/3e442c7dad1b44b6a0914aa26b62a892/index.mpd"; k1 = "2c506baa39a74674874ae2ab8bbc792f"; k2 = "1fa11c606eea3ba805f3d2efa537b1fa";}
+
+else if (id == "ssc5") {
+url = "//ssc5-ak.akamaized.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd"; k1 = "c88b512b17ab4f6cb09eb0ff4a1056ed"; k2 = "adc08ee1c20a734972a55c9aebbd1888";}
+
+else if (id == "usa-network") {
+url = "//fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd"; k1 = "882c9f5613b43b47adc70aa968a308ce"; k2 = "de534ef8914bfe62ba3cdd6bdb9e1c04";}
+
+else if (id == "tnt1uk") {
+url = "//linear036-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(tnt1sport50)/manifest_hd.mpd"; k1 = "0005f5067d785a42dc5167ba06126ca8"; k2 = "8f9987d3153d003a23f34994501141d9";}
+
+else if (id == "tnt2uk") {
+url = "//linear036-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(tnt2sport50)/manifest_hd.mpd"; k1 = "00034ab4ec2fbf01848ac5157a314d43"; k2 = "92d1b98a91f3f39285e4b6315608b3ee";}
+
+else if (id == "tnt3uk") {
+url = "//linear012-ie-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(tntsport3)/manifest_hd.mpd"; k1 = "00033ea5f863d415b2243371f3887604"; k2 = "3523ac3b8633634563c112a56b53c798";}
+
+else if (id == "tnt4uk") {
+url = "//linear037-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(tnt4sport50)/manifest_hd.mpd"; k1 = "00032335f1860c8cf0f5e4510c9619d9"; k2 = "fa0830e62a308d00d09a916df66ccd1a";}
+
+else if (id == "skyeventuk") {
+url = "//linear011-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsmainevent50)/manifest_hd.mpd"; k1 = "00034d0b4c47a219e93d880b4610d197"; k2 = "a5dcfa9627379c6928567092b6e5ce40";}
+
+else if (id == "skyfootballuk") {
+url = "//linear016-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportsfootball)/manifest_sd.mpd"; k1 = "00033a7801c324b97dd9997d15cd1e6d"; k2 = "da90342266ae32a331a83bd05d6308bd";}
+
+else if (id == "skypremieruk") {
+url = "//linear003-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportspremierleague)/manifest_sd.mpd"; k1 = "0003e5d66d7501ff2930c80e9b5609fc"; k2 = "32661be41b5b713dcd88683cd389af21";}
+
+else if (id == "arena1p") {
+url = "//webtvstream.bhtelecom.ba/hls6/as_premium1.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "arena2p") {
+url = "//webtvstream.bhtelecom.ba/hls6/as_premium2.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "arena3p") {
+url = "//webtvstream.bhtelecom.ba/hls6/as_premium3.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a1") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena1.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a2") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena2.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a3") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena3.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a4") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena4.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a5") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena5.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "a6") {
+url = "//webtvstream.bhtelecom.ba/hls6/arena6.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "apl") {
+url = "//webtvstream.bhtelecom.ba/hls6/premier_league.mpd"; k1 = "c18b6aa739be4c0b774605fcfb5d6b68"; k2 = "e41c3a6f7532b2e3a828d9580124c89d";}
+
+else if (id == "sky1it") {
+url = "//linear301-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd"; k1 = "00362452ed102000ccea64c311921dc2"; k2 = "02f27bd6caab7633d3083b94d3958b1c";}
+
+else if (id == "skycalit") {
+url = "//linear302-it-dash1-prd-ll.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master.mpd"; k1 = "0036e5d0e88dfb087f1791da6150ced9"; k2 = "0bc653d830837dceb13bd17169f0f8e2";}
+
+else if (id == "skymax") {
+url = "//linear305-it-dash1-prd-ll.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master.mpd"; k1 = "0036a901e6f0381cfd1b6fcf10cc6038"; k2 = "4fbb022704c9abcbb709484a5667fd79";}
+
+else if (id == "nbc-usa") {
+url = "//fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc122ycnuy)/master.mpd"; k1 = "0020d88a6713159839743f655c5da7de"; k2 = "ba9f34226301f69a4f0f13f65a1f92ec";}
+
+else if (id == "") {
+url = ""; k1 = ""; k2 = "";}
+
+else if (id == "") {
+url = ""; k1 = ""; k2 = "";}
+
+///////////////////////////////////////<!--    -->
+</script>
+
+<div id="player"></div>
+<script>
+jwplayer("player").setup({
+playlist: [{
+sources: [{
+file: url,
+drm: {"clearkey": {"keyId": k1, "key": k2}}
+}]
+}],
+autostart: auto,
+width: "100%", height: "100%", stretching : "exactfit", cast: {}, sharing: {}
+});
+</script>
+
+<script>
+console.log("??");
+console.log("??");
+console.log("??");
+console.log("??");
+console.log("??");
+console.log("??");
+console.log("??");
+</script>
+<!-- Histats.com  END  -->
