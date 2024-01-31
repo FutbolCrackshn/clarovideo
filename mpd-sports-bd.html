@@ -3,6 +3,7 @@
 <meta content="noindex, nofollow, noarchive" name="googlebot"/>
 <meta name="referrer" content="no-referrer" />
 <script data-cfasync="false" type="text/javascript" src="//dexpredict.com/a/display.php?r=6944394"></script>
+<script language="javascript" type="text/javascript"> if(self==top) { top.location.href=""; } </script>
 <script>
 !function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).ConsoleBan={})}(this,(function(e){"use strict";var t=function(){return t=Object.assign||function(e){for(var t,i=1,n=arguments.length;i<n;i++)for(var o in t=arguments[i])Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o]);return e},t.apply(this,arguments)},i={clear:!0,debug:!0,debugTime:3e3},n=2,o=function(e){return~navigator.userAgent.toLowerCase().indexOf(e)},r=function(e,t){t!==n?location.href=e:location.replace(e)},c=0,a=0,f=function(e){var t=0,i=1<<c++;return function(){(!a||a&i)&&2===++t&&(a|=i,e(),t=1)}},l=function(e){var t=/./;t.toString=f(e);var i=function(){return t};i.toString=f(e);var n=new Date;n.toString=f(e),console.log("%c",i,i(),n);var o,r,c=f(e);o=c,r=new Error,Object.defineProperty(r,"message",{get:function(){o()}}),console.log(r)},u=function(){function e(e){var n=t(t({},i),e),o=n.clear,r=n.debug,c=n.debugTime,a=n.callback,f=n.redirect,l=n.write;this._debug=r,this._debugTime=c,this._clear=o,this._callback=a,this._redirect=f,this._write=l}return e.prototype.clear=function(){this._clear&&(console.clear=function(){})},e.prototype.debug=function(){if(this._debug){var e=new Function("debugger");setInterval(e,this._debugTime)}},e.prototype.redirect=function(e){var t=this._redirect;if(t)if(0!==t.indexOf("http")){var i,n=location.pathname+location.search;if(((i=t)?"/"!==i[0]?"/".concat(i):i:"/")!==n)r(t,e)}else location.href!==t&&r(t,e)},e.prototype.callback=function(){if((this._callback||this._redirect||this._write)&&window){var e,t=this.fire.bind(this),i=window.chrome||o("chrome"),r=o("firefox");if(!i)return r?((e=/./).toString=t,void console.log(e)):void function(e){var t=new Image;Object.defineProperty(t,"id",{get:function(){e(n)}}),console.log(t)}(t);l(t)}},e.prototype.write=function(){var e=this._write;e&&(document.body.innerHTML="string"==typeof e?e:e.innerHTML)},e.prototype.fire=function(e){this._callback?this._callback.call(null):(this.redirect(e),this._redirect||this.write())},e.prototype.ban=function(){this.callback(),this.clear(),this.debug()},e}();e.init=function(e){new u(e).ban()},Object.defineProperty(e,"__esModule",{value:!0})}));
 
@@ -294,6 +295,15 @@ url = "//linear305-it-dash1-prd-ll.cdn13.skycdp.com/016a/31248/FHD/skysportmax/m
 
 else if (id == "nbc-usa") {
 url = "//fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc122ycnuy)/master.mpd"; k1 = "0020d88a6713159839743f655c5da7de"; k2 = "ba9f34226301f69a4f0f13f65a1f92ec";}
+
+else if (id == "star-plus") {
+url = "//live-ftc-na-south-2.media.starott.com/clt2/va01/starplus/event/2024/01/29/Estrela_Amadora_vs_Benfic_20240129_1706548247033/ctr-all-complete.m3u8"; k1 = "fd3ccc299d0a4947bba647bd896238c9"; k2 = "c3af001bdbff635738c5e40af86bb936";}
+
+else if (id == "TyCSport") {
+url = "//edge-live31-sl.cvattv.com.ar/live/c7eds/TyCSport/SA_Live_dash_enc/TyCSport.mpd"; k1 = "2b21c8fa9a329cce311a4c4a4aa996a1"; k2 = "cc23ea1fb32629f9e1f48c8deeae3e5b";}
+
+else if (id == "") {
+url = ""; k1 = ""; k2 = "";}
 
 else if (id == "") {
 url = ""; k1 = ""; k2 = "";}
