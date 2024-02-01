@@ -1,0 +1,53 @@
+<script>
+function eventos()
+{
+	var x = Math.random().toString(36).substring(7);
+
+	$.ajax({
+		url : "eventosvix.json?"+x,
+		type : "get",
+		success: function (arr) {
+			var content = '';
+			
+			for (var i = 0; i < arr.length; i++)
+			{
+				if (i%4==0)
+				{
+					if (i != 0)
+						content += '</div>';
+					
+					content += '<div class="w3-row-padding w3-padding-16 w3-center" id="copa">';
+				}
+					
+				var obj = arr[i];
+		
+				if (obj['status'] == "FINALIZADO" || obj['status'] == "EN VIVO")
+					status = obj['status'];
+				else
+					status = 'HOY | <span class="t">' + obj['status'] + '</span> hs';
+			
+				if (status == "EN VIVO")
+					color = "danger";
+				else
+					color = "dark";
+					
+				content += '<div class="w3-quarter"><a href="' + obj['url'] + '"><img src="' + obj['img'] + '" alt="VIX+" style="width:100%" class="w3-hover-opacity"></a><a class="btn btn-block btn-' + color + '" href="' + obj['url'] + '">' + status + '</a> <div class="w3-card-4"><p><b>' + obj['league'] + '</b></p><p>' + obj['title'] + '</p></div></div>';
+				
+				if (i == arr.length-1)
+					content += '</div>';
+			}
+			
+			$("#eventos").html(content);
+			
+			guardaHorario();
+			dT();
+		}
+	})
+}
+
+eventos();
+
+window.setInterval(function() {
+	eventos();
+}, 60000);
+</script>
