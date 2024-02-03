@@ -33,5 +33,5 @@ if(v_height == "100%"){
 else{
     PlaySize = '';
 }
-document.write('<ifr'+'ame src="https://clarovideo-8po.pages.dev/eventos.html?r='+ embedded +'&live='+ fid +'" '+PlaySize +' width='+ v_width +' height=' + v_height + ' scrolling="no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifr'+'ame>') ;
+document.write('<ifr'+'ame src="https://30c8025d.clarovideo-8po.pages.dev/eventos?r='+ embedded +'&live='+ fid +'" '+PlaySize +' width='+ v_width +' height=' + v_height + ' scrolling="no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifr'+'ame>') ;
 /**/
