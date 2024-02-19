@@ -7,12 +7,6 @@
     <meta name="referrer" content="no-referrer" />
     <script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
     <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
-    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-        <script type="text/javascript">
-            aclib.runPop({
-                zoneId: '6502670',
-            });
-        </script>
     <style>
         body { margin: 0px; }
         .ViostreamIframe { overflow: hidden; padding-top: 56.25%; position: relative; }
@@ -615,7 +609,9 @@ if (config) {
     }
 
  //JWWWWWW
-    jwplayer("player").setup({
+    jwplayer("player").setup({ 
+       "title": "FutbolCracksHn.net",
+       "description": "Futbol en Vivo - Gratis",
         playlist: [{
             sources: sources
         }],
