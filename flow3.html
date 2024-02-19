@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>body {margin:0;padding:0}</style>
+<style type="text/css">.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-playlist-btn {display: none;}</style><script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+<script>
+    jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+</head>
+<body>
+    <div id='player'></div>
+    <script type='text/javascript'>
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+            var results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+var mt = [ "f2play" ];
+var random = Math.floor(Math.random() * mt.length)
+console.log("Selected mt:", mt[random]);
+        var mpdBase = "https://" + mt[random] + ".cdn.rcs.net.ar/mnp/";
+        var getURL = getParameterByName('get');
+        var videoURL;
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RudHNwb3J0cy9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "tntsports/output.mpd";
+        } 
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VzcG5wcmVtaXVtL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "espnpremium/output.mpd";
+        }
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2ZveF9zcG9ydC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "fox_sport/output.mpd";
+        }
+
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2ZveF9zcG9ydDIvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "fox_sport2/output.mpd";
+        }
+
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2ZveF9zcG9ydDMvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "fox_sport3/output.mpd";
+        }
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VzcG4vb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "espn/output.mpd";
+        }
+        
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VzcG4yL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "espn2/output.mpd";
+        } 
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VzcG4zL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "espn3/output.mpd";
+        } 
+
+
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VzcG5fZXh0cmEvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "espn_extra/output.mpd";
+        } 
+
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hiby9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "hbo/output.mpd";
+        } 
+      if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hibzIvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "hbo2/output.mpd";
+        }    
+
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib3BsdXMvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "hboplus/output.mpd";
+        }    
+
+
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib2ZhbS9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "hbofam/output.mpd";
+        }    
+
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib3h0ci9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "hboxtr/output.mpd";
+        }   
+
+
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib211bmQvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "hbomund/output.mpd";
+        }   
+
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib3BvcC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "hbopop/output.mpd";
+        }   
+
+  if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hib3NpZy9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "hbosig/output.mpd";
+        }   
+        
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RlbGVmZS9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "telefe/output.mpd";
+        }   
+     if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VsMTMvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "el13/output.mpd";
+        }   
+
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VsbnVldmUvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "elnueve/output.mpd";
+        }   
+    if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VsbnVldmUvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "america/output.mpd";
+        }   
+
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2Nyb25pY2Evb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "cronica/output.mpd";
+        }   
+        
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2M1bi9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "c5n/output.mpd";
+        }   
+        
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RuL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "tn/output.mpd";
+        } 
+        
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2EyNC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "a24/output.mpd";
+        } 
+        
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2NhbmFsMjYvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "canal26/output.mpd";
+        } 
+        
+  if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2VuY3VlbnRyby9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "encuentro/output.mpd";
+        } 
+        
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3J1cmFsL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "rural/output.mpd";
+        } 
+        
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2Rpc2NvdmVyeS9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "discovery/output.mpd";
+        } 
+        
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2RzY190bGMvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "dsc_tlc/output.mpd";
+        } 
+        
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2RzY190dXJiby9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "dsc_turbo/output.mpd";
+        } 
+         if (getURL === "WORLD") {
+            videoURL = mpdBase + "disc_world/output.mpd";
+        } 
+
+	    if (getURL === "THEATER") {
+            videoURL = mpdBase + "disc_theater/output.mpd";
+        } 
+             if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hpc3Rvcnkvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "history/output.mpd";
+        } 
+
+     if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2hpc3Rvcnkvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "history/output.mpd";
+        } 
+
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2dvdXJtZXQvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "gourmet/output.mpd";
+        } 
+        
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2FlL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "ae/output.mpd";
+        } 
+
+        
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2NpbmVjYW5hbC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "cinecanal/output.mpd";
+        } 
+        
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RudC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "tnt/output.mpd";
+        } 
+
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RudHNlcmllcy9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "tntseries/output.mpd";
+        } 
+
+         if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3Ricy9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "tbs/output.mpd";
+        } 
+        
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2Z4L291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "fx/output.mpd";
+        } 
+        
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3dhcm5lci9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "warner/output.mpd";
+        } 
+
+
+           if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2NpbmVtYXgvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "cinemax/output.mpd";
+        } 
+
+   if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3NwYWNlL291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "space/output.mpd";
+        } 
+
+  if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3Nvbnkvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "sony/output.mpd";
+        } 
+        
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3BhcmFtb3VudC9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "paramount/output.mpd";
+        } 
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2FtYy9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "amc/output.mpd";
+        } 
+
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2F4bi9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "axn/output.mpd";
+        }
+        
+        if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3N5Znkvb3V0cHV0Lm1wZA==") {
+            videoURL = mpdBase + "syfy/output.mpd";
+        } 
+
+  if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2dsaXR6L291dHB1dC5tcGQ=") {
+            videoURL = mpdBase + "glitz/output.mpd";
+        }
+
+          if (getURL === "as") {
+            videoURL = mpdBase + "adultswim/output.mpd";
+        } 
+
+
+          if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL3RjbS9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "tcm/output.mpd";
+        } 
+        
+        
+ if (getURL === "aHR0cHM6Ly9yb3V0ZXIuY2RuLnJjcy5uZXQuYXIvbW5wL2NpbmVhci9vdXRwdXQubXBk") {
+            videoURL = mpdBase + "cinear/output.mpd";
+        } 
+
+
+
+  if (getURL === "Y2FydG9vbg==") {
+            videoURL = mpdBase + "cartoon/output.mpd";
+        }
+
+if (getURL === "ZGlzbmV5") {
+            videoURL = mpdBase + "disney/output.mpd";
+        }
+
+if (getURL === "ZGlzbmV5anI=") {
+            videoURL = mpdBase + "disneyjr/output.mpd";
+        }
+	    
+if (getURL === "RGlzY292ZXJ5X0tpZHM=") {
+            videoURL = mpdBase + "disc_kids/output.mpd";
+        }	
+
+ if (getURL === "bmlja2Vsb2Rlb24=") {
+            videoURL = mpdBase + "nickelodeon/output.mpd";
+        }	
+
+  if (getURL === "bmlja2py") {
+            videoURL = mpdBase + "nickjr/output.mpd";
+        }
+
+	    
+       var playerInstance = jwplayer("player");
+		playerInstance.setup({
+			file: videoURL,
+            
+			
+			width: "100%",
+			height: "100%",
+			aspectratio: "16:9",
+			autostart: false,
+			cast:{}
+		});	
+    </script>
+
+  
+</body>
+</html>
