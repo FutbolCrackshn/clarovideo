@@ -102,9 +102,9 @@ function getToVideo(e){
 $(document).on('touchend click', "#overlay", function(e) {
     getToVideo(e);
     if(!volumeSet && typeof player !== 'undefined'){
-      player.configure({hideMediaControl: "true"});
+      player.configure({hideMediaControl: "false"});
       player.setVolume(pvolume);
-      volumeSet = true;
+      volumeSet = false;
       e.stopImmediatePropagation();
     }
 });
