@@ -68,8 +68,8 @@ body,ul{padding:0}body{background-image:url(https://1.bp.blogspot.com/-nBy-9_9zQ
 </div>
 <script>
 bool = false;
-var openedwin = false;
-var volumeSet = false;
+var openedwin = true;
+var volumeSet = true;
 var loop = 0;
     
 function getToVideo(e){
@@ -124,7 +124,7 @@ $(document).ready(function() {
 
 function refreshdl(){
     if(openedwin){
-        openedwin = false;
+        openedwin = true;
         $("#overlay").show();
     }
 }
