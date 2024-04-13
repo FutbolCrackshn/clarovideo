@@ -1,0 +1,283 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Josefin+Sans">   
+<link rel="stylesheet"  href="//bgtv.xyz/app/style.css">   
+
+
+  <link href="https://entreunosyceros.net/ejemplos/reproductorm3u8/video-js.css" rel="stylesheet">
+  <script src="https://entreunosyceros.net/ejemplos/reproductorm3u8/video.js"></script>
+  <script src="https://entreunosyceros.net/ejemplos/reproductorm3u8/videojs-contrib-hls.js"></script>
+  
+   
+<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js'></script>
+
+</head>
+
+<style>
+.embed-container {
+    position: relative;
+    padding-bottom: 80%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.wrapper {
+	background-color: #000;
+	
+}
+.wrapper {
+	
+	overflow: hidden;
+}
+.wrapper,
+.wave-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wave-btn {
+	height: 60px;
+	border-radius: 0 0 10px 10px;
+	transition: all 0.8s ease 0s;
+	text-decoration: none;
+	overflow: hidden;
+}
+.wave-btn__text {
+	z-index: 1;
+	font-family: sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.wave-btn,
+.wave-btn__text {
+	position: relative;
+}
+.wave-btn:hover {
+	border-radius: 10px;
+	transition: all 0.8s ease 0s;
+	box-shadow: 0 0 40px rgba(55, 180, 212, 0.6);
+}
+.wave-btn:hover .wave-btn__waves {
+	top: -50px;
+}
+.wave-btn,
+.wave-btn__waves {
+	width: 280px;
+}
+.wave-btn__waves {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 280px;
+	background-color: #37b4d4;
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.8s ease 0s;
+}
+.wave-btn__waves:after,
+.wave-btn__waves:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 250%;
+	height: 250%;
+	transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
+}
+.wave-btn__waves:before {
+	background-color: #000;
+	border-radius: 48%;
+	animation: waves 5s infinite linear;
+}
+.wave-btn__waves:after {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 44%;
+	animation: waves 10s infinite linear;
+}
+@keyframes waves {
+	0% {
+		transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
+	}
+	100% {
+		transform: translate3d(-50%, -96%, 0) rotate(360deg) scale(1);
+	}
+}
+
+button{
+  background:#0099CC;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  width:96%;
+  font-family: Josefin Sans;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 5px;
+}
+button:hover{
+  background:#fff;
+  color:#0099CC;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #0099CC;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+</style>
+<body>
+  <center>
+  <center><button style="padding:10px; font-size:X-large; color:#333; width: 100%; background-color:#111; border:0;border-radius: 5px; font-family:Roboto;">&#187; B L A C K G H O S T</button><br>
+ 
+    
+  
+  <div class="embed-container">
+  <iframe allow="encrypted-media"  frameborder="0" sandbox="allow-same-origin allow-scripts" scrolling="yes" allowfullscreen width="95%"  src="https://w3.mp.lura.live/player/prod/v3/anvload.html?key=eyJtIjogIkFOViIsICJ2IjogImFkc3Q5UUJrTldCWGEyWm8iLCAidG9rZW4iOiAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdFVXSmhNazlrWjFCSVVsZFdlamRvVG01MFRuaE5NbkpwT0RGeFRsZDVXQ0lzSW5acFpDSTZJbUZrYzNRNVVVSnJUbGRDV0dFeVdtOGlMQ0psZUhBaU9qRTNNVE13TWpVME1Ea3NJbWxoZENJNk1UY3hNamt6T1RBd09YMC5Zc3dUYVZERV9GV1JMNldMYWpDWFBJUzdSY2JTSlVLc2pOT2tuM1dPdFo0IiwgImFudmFjayI6ICJtUWJhMk9kZ1BIUldWejdoTm50TnhNMnJpODFxTld5WCJ9">
+
+  </iframe>
+  </div>
+
+
+
+  
+  <!--div id="player"></div>
+						sandbox="allow-same-origin allow-scripts"
+						allow-same-origin allow-top-navigation allow-forms allow-scripts
+						<script>
+						player = new Clappr.Player({
+						source: 'https://w3.mp.lura.live/player/prod/v3/anvload.html?key=eyJtIjogIkFOViIsICJ2IjogImFkc3Q5UUJrTldCWGEyWm8iLCAidG9rZW4iOiAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdFVXSmhNazlrWjFCSVVsZFdlamRvVG01MFRuaE5NbkpwT0RGeFRsZDVXQ0lzSW5acFpDSTZJbUZrYzNRNVVVSnJUbGRDV0dFeVdtOGlMQ0psZUhBaU9qRTNNVE13TWpVME1Ea3NJbWxoZENJNk1UY3hNamt6T1RBd09YMC5Zc3dUYVZERV9GV1JMNldMYWpDWFBJUzdSY2JTSlVLc2pOT2tuM1dPdFo0IiwgImFudmFjayI6ICJtUWJhMk9kZ1BIUldWejdoTm50TnhNMnJpODFxTld5WCJ9',
+						parentId: "#player",
+						mimeType: 'audio/mp4',
+						position: 'top-right',
+						watermark: 'http://bgtv.xyz/black/img/icon.png',
+						poster: 'https://i.imgur.com/JNyvg0P.jpg',
+						plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin],
+						mediacontrol: {seekbar:"#FFF", buttons: "#3086C2"},   
+						useDvrControls: "true",
+						preload: "auto",
+						autoPlay: "true",
+						width: "100%",
+						height: "50%",
+						strings: {"en": {"live": "BLACKGHOST",}},
+						levelSelectorConfig: {title: 'Quality',labels: {4: '240p',3: '360p',2: '480p',1: '720p',0: '1080p', }},
+						})
+						</script-->
+						
+  
+  
+
+  
+  
+<br>
+
+
+
+<!--div class="wrapper">
+	<a href="javascript:history.back()" class="wave-btn">
+		<span class="wave-btn__text">◀◀ Regresar</span>
+		<span class="wave-btn__waves"></span>
+	</a>
+</div-->
+
+
+<br><a href="javascript:history.back()"><button> <span class="material-symbols-outlined">
+arrow_back
+</span> Regresar </button></a> 
+<br><br>
+<div>
+<center>
+<a href="https://www.paypal.com/donate?hosted_button_id=QQ8D4DHEKEF76">
+<img src="//bgtv.xyz/img/dona.png" width="98%"/>
+</a>
+</div>
+
+<br>
+<br>
+
+<a href="https://bgtv.xyz/app/app/playframe.php?url=https://w3.mp.lura.live/player/prod/v3/anvload.html?key=eyJtIjogIkFOViIsICJ2IjogImFkc3Q5UUJrTldCWGEyWm8iLCAidG9rZW4iOiAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdFVXSmhNazlrWjFCSVVsZFdlamRvVG01MFRuaE5NbkpwT0RGeFRsZDVXQ0lzSW5acFpDSTZJbUZrYzNRNVVVSnJUbGRDV0dFeVdtOGlMQ0psZUhBaU9qRTNNVE13TWpVME1Ea3NJbWxoZENJNk1UY3hNamt6T1RBd09YMC5Zc3dUYVZERV9GV1JMNldMYWpDWFBJUzdSY2JTSlVLc2pOT2tuM1dPdFo0IiwgImFudmFjayI6ICJtUWJhMk9kZ1BIUldWejdoTm50TnhNMnJpODFxTld5WCJ9&download.m3u8" target="_new"><button> <span class="material-symbols-outlined">
+open_in_new
+</span> Ver Fuera </button></a> 
+
+<br>
+<br>
+
+
+
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="UHF5UK78U2G5Y" />
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+
+
+
+
+<br>
+
+<!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4637453,4,604,110,55,00010101']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4637453&101" alt="contadores web" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5CB2LRTT4J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5CB2LRTT4J');
+</script>
+
+
+  </body>
+</html>
