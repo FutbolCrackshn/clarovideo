@@ -35,7 +35,7 @@ body,ul{padding:0}body{background-image:url(https://1.bp.blogspot.com/-nBy-9_9zQ
 
                 $('.fpi').click(function (e) {
                     e.preventDefault();
-                    window.open('/index.php', '_blank');
+                    window.open('/index.php', '_top');
                 });
 
                 setInterval(function () {
@@ -43,7 +43,7 @@ body,ul{padding:0}body{background-image:url(https://1.bp.blogspot.com/-nBy-9_9zQ
 
                 }, 500);
                 $('*[data-t="l"]').click(function () {
-                    window.open($(this).attr('data'), '_blank');
+                    window.open($(this).attr('data'), '_top');
                     return;
                 });
                 $('.mata_close').click(function () {
