@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<style type="text/css">
+body {
+   margin: 0;
+   padding: 0;
+}
+</style>
+<head>
+
+</head>
+<meta name='referrer' content='no-referrer' />
+<meta name="robots" content="noindex">
+<script src="/cdn-cgi/apps/head/bdXKEs2GnhJP7BcpCR28GDM77_w.js"></script><style type="text/css">.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-playlist-btn {display: none;}</style><script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js">
+</script>
+<script>
+    jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+<div id="player"></div>
+<script>
+          function getParameterByName(name) {
+              name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+              var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                  results = regex.exec(location.search);
+              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+          }
+              var getURL  = getParameterByName('get');
+              var getIMG  = getParameterByName('img');
+              var getLang = getParameterByName('lang');
+
+        if (getURL == "#") {alert('Vuelve a la pÃƒÆ’Ã‚Â¡gina anterior');}
+        if (getIMG == "#") {alert('Vuelve a la pÃƒÆ’Ã‚Â¡gina anterior');}
+        if (getURL == "") {location.href="https://Futbolcrackshn.net";}
+
+      </script>
+<script>
+		var playerInstance = jwplayer("player");
+		playerInstance.setup({
+			file: atob(getURL),
+	        title : "Futbolcrackshn.net",
+	        description: "Futbol en Vivo",
+            image: atob(getIMG),
+			type: "hls",
+			width: "100%",
+			height: "100%",
+			aspectratio: "16:9",
+			autostart: false,
+			cast:{},
+			sharing: {}
+		});	
+		if (getLang == "") {
+			lang = 1;
+		}
+		jwplayer().on('play', function(e) {
+		  jwplayer().setCurrentAudioTrack(lang);
+		});
+		</script>
